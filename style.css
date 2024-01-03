@@ -1,0 +1,362 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image:linear-gradient(rgb(0, 0, 33), rgb(21, 21, 91),rgb(6, 26, 67) );
+     /* rgb(0, 0, 33); */
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(7, 7, 52);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(153, 153, 226);
+    font-size: 1.04rem;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 0;
+
+}
+
+.firstSection>div {
+    width: 35%;
+
+}
+
+.leftSection {
+    font-size: 2rem;
+}
+
+.rightSection img {
+    width: 80%;
+}
+
+.purple {
+    color: rgb(170, 107, 228);
+}
+
+#element {
+    color: rgb(170, 107, 228);
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+}
+
+main hr {
+    border: 0;
+    background: #4b44d8;
+    height: 1.2px;
+    margin: 60px 60px;
+    opacity: 0.2;
+}
+
+.text-align {
+    text-align: center;
+
+    font-size: 2.5rem;
+}
+.text-about{
+    text-align: center;
+    font-size: 1.1rem;
+    color: rgb(164, 206, 226)
+
+}
+#abhi{
+    /* height: 12rem;*/
+    width: 12rem; 
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+     
+  }
+#abhi img{
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+} 
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+
+
+}
+
+.education {
+    width: 45%;
+    border-radius: 20px;
+    background-color: rgb(33, 33, 109);
+    height: 250px;
+    
+}
+.education h1{
+    color: yellow;
+}
+ .list-education{
+    margin-left: 20px;
+    /* color: rgb(164, 206, 226) */
+    
+ }
+
+
+
+.skills {
+    width: 45%;
+    border-radius: 20px;
+    
+    background-color: rgb(33, 33, 109);;
+    height: 250px;
+
+}
+.skills h1{
+    color: yellow;
+}
+
+.list-skills{
+    margin-left: 20px;
+    
+    /* color: aquamarine; */
+}
+.list-skills>li{
+    padding: 5px;
+    font-size: 15px;
+}
+
+.container>div>h1 {
+    text-align: center;
+    margin: 5px;
+}
+
+.sectionAlign {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.thirdSection {
+
+    width: 60%;
+    
+    padding: 25px;
+    margin-left: 25px;
+    background-color: rgb(33, 33, 109);
+    
+    border-radius: 25px;
+}
+.thirdSection>ol>li {
+    padding: 20px;
+}
+.thirdSection>ol>li>a{
+    text-decoration: none;
+    background-color:rgb(27, 27, 90);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+    color: yellow;
+    
+}
+.thirdSection>ol>li>a:hover{
+    background-color: black;
+    
+}
+
+.fourthSection {
+    width: 60%;
+    
+    padding: 25px;
+    margin-left: 25px;
+    background-color: rgb(33, 33, 109);
+    border-radius: 25px;
+}
+.fourthSection>ol>li{
+    padding: 20px;
+}
+.fourthSection>ol>li>h3{
+    color: yellow;
+}
+
+.contact{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url();
+}
+.contact .content{
+    max-width: 800px;
+    text-align: center;
+}
+/* .contact .content h2{
+    font-size: 50px;
+    font-weight: 500;
+    color:#fff ; */
+
+.contact .content p{
+    font-weight: 300;
+}
+
+
+.container1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+
+}
+.container1 .contactInfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+}
+.container1 .contactInfo .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+.container1 .contactInfo .box .icon{
+    min-width: 60px;
+    height: 60px;
+    background:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size:22px ;
+}
+.container1 .contactInfo .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    flex-direction: column;
+    font-weight: 300;
+}
+.container1 .contactInfo .box .text h3{
+    font-weight: 500;
+    color: #00bcd4;
+
+}
+.contactForm{
+    width: 40%;
+    padding: 40px;
+    color: black;
+    background:  #fff;
+    border-radius: 25px;
+}
+.contactForm h2{
+    font-size:30px;
+    font-weight: 1000;
+
+}
+
+.contactForm .inputbox input,textarea{
+    width:100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+.contactForm .inputbox span{
+    position: relative;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+
+}
+/* .contactForm .inputbox  input:focus~span,
+.contactForm .inputbox  input:valid ~span
+{
+    color: #e91E63;
+    font-size: 12px;
+    transform: translateY(-20px);
+} */
+.contactForm .inputbox  input[type="submit"]{
+    width: 100%;
+    background: #00bcd4;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #00bcd4;
+    transition: 0.5s;
+}
+.contactForm .inputbox  input[type="submit"]:hover
+{
+    background: #fff;
+    color: #00bcd4;
+}
+
+@media (max-width:911px){
+    .contact{
+        padding-top: 50px;
+          }
+          .container1,.firstSection,
+          .container,.sectionAlign
+           {
+            flex-direction: column;
+            width: 100%;
+          }
+          .container1 .contactInfo{
+            margin-bottom: 40px;
+          }
+          .container1 .contactInfo,
+          .container1 .contactForm,
+          .education,.skills{
+            width: 100%;
+            padding: 20px;
+          }
+            .text-about{
+           font-size: .8;
+            }
+          .education,.skills{
+            margin-top: 20px;
+          }
+}
